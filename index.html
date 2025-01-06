@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Delicious Food</title>
+</head>
+
+<body>
+    <header>
+        <h1>Delicious Food</h1>
+        <nav>
+            <ul>
+                <li><a href="#dishes">Dishes</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="dishes">
+            <h2>Our Dishes</h2>
+            <div class="dish" onclick="showInfo('Pasta')">
+                <h3>Pasta</h3>
+                <img src="/image/image1.jpg"
+                    alt="Pasta">
+                <p>Delicious pasta with marinara sauce.</p>
+            </div>
+            <div class="dish" onclick="showInfo('Sushi')">
+                <h3>Sushi</h3>
+                <img src="/image/image3.jpg" alt="Sushi">
+                <p>Fresh sushi with salmon and avocado.</p>
+            </div>
+            <div class="dish" onclick="showInfo('Pizza')">
+                <h3>Pizza</h3>
+                <img src="/image/image2.jpg" alt="Pizza">
+                <p>Cheesy pizza topped with pepperoni and olives.</p>
+            </div>
+            <div class="dish" onclick="showInfo('Salad')">
+                <h3>Salad</h3>
+                <img src="/image/image4.jpg" alt="Salad">
+                <p>Fresh garden salad with mixed vegetables.</p>
+            </div>
+        </section>
+
+        <section id="info">
+            <h2>Dish Information</h2>
+            <div id="dishInfo">Click on a dish to learn more!</div>
+        </section>
+
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We love cooking and sharing delicious food with everyone!</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: info@deliciousfood.com</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Delicious Food</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
